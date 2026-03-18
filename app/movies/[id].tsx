@@ -1,9 +1,8 @@
 import React from 'react'
 import {useLocalSearchParams} from "expo-router";
 import { StyleSheet, Text, View} from "react-native"
-import Onboarding from "@/app/onboarding";
 
-const Details = () => {
+const MovieDetails = () => {
     const { id } = useLocalSearchParams()
 
     return (
@@ -13,5 +12,5 @@ const Details = () => {
     )
 }
 
-export default Details;
+export default MovieDetails;
 const styles = StyleSheet.create({})
